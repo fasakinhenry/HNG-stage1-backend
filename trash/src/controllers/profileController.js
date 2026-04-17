@@ -1,4 +1,4 @@
-const { uuidv7 } = require("../utils/uuid");
+const { v7: uuidv7 } = require("uuid");
 const Profile = require("../models/Profile");
 const { enrichName } = require("../services/enrichment");
 
